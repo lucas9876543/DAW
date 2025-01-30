@@ -1,0 +1,39 @@
+
+<bars>
+    <bar>
+        <name>The Tipsy Tavern</name>
+        <location>New York, NY</location>
+        <rating>4.7</rating>
+        <tables>20</tables>
+        <priceRange>$$</priceRange>
+        <specialties>Cocktails, Craft Beer, Whiskey</specialties>
+        <website>https://www.thetipsytavern.sg/</website>
+    </bar>
+    <bar>
+        <name>Sunset Lounge</name>
+        <location>Los Angeles, CA</location>
+        <rating>4.3</rating>
+        <tables>15</tables>
+        <priceRange>$$$</priceRange>
+        <specialties>Wine, Champagne, Tapas</specialties>
+        <website>https://sunsetlounge.net/</website>
+    </bar>
+    <bar>
+        <name>Moonlight Bar</name>
+        <location>Miami, FL</location>
+        <rating>4.5</rating>
+        <tables>25</tables>
+        <priceRange>$$</priceRange>
+        <specialties>Mojitos, Daiquiris, Rum</specialties>
+         <website>https://www.facebook.com/MoonlightCalaBlanca</website>
+    </bar>
+    <bar>
+        <name>Starlight Pub</name>
+        <location>Chicago, IL</location>
+        <rating>4.6</rating>
+        <tables>30</tables>
+        <priceRange>$$</priceRange>
+        <specialties>Craft Beer, Burgers, Live Music</specialties>
+        <website>https://www.facebook.com/p/StarlightPub-100062318538366/</website>
+    </bar>
+</bars>

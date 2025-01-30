@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bars Data</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Bars Data</h1>
+    <table id="barsTable">
+        <thead>
+            <tr>
+                <th>Bar Name</th>
+                <th>Location</th>
+                <th>Rating</th>
+                <th>Number of Tables</th>
+                <th>Price Range</th>
+                <th>Specialities</th>
+                <th>Website</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Rows will be populated dynamically -->
+        </tbody>
+    </table>
+    <button id="addBarButton">Add Bar</button>
+    <button id="deleteBarButton">Delete Last Bar</button>
+
+    <!-- Mensaje de error que aparecerá si algún campo está vacío -->
+    <div id="errorMessage" style="display:none; color: red; font-weight: bold;">
+        Please fill in all fields.
+    </div>
+
+    <div id="barForm" style="display:none;">
+        <label for="barName">Bar Name:</label>
+        <input type="text" id="barName"><br>
+        <label for="location">Location:</label>
+        <input type="text" id="location"><br>
+        <label for="rating">Rating:</label>
+        <input type="text" id="rating"><br>
+        <label for="tables">Number of Tables:</label>
+        <input type="text" id="tables"><br>
+        <label for="priceRange">Price Range:</label>
+        <input type="text" id="priceRange"><br>
+        <label for="specialities">Specialities:</label>
+        <input type="text" id="specialities"><br>
+        <label for="website">Website:</label>
+        <input type="text" id="website"><br>
+        <button id="submitBarButton">Submit</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
